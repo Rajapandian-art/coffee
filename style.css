@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-contant{
+    background:rgb(248, 247, 247);
+    font-family: "Merienda", cursive;
+}
+
+/*navbar start*/
+
+#navbar{
+background:linear-gradient(white ,#b2744c );
+box-shadow: 0 .5rem 1rem hsla(0, 23%, 94%, 0.863);
+position: fixed;
+width: 100%;
+z-index: 500;
+
+}
+#logo img{
+    border-radius: 10px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+color:white;
+margin-left: 10px;
+font-weight: bold;
+transition: .5s;
+}
+.nav-item .nav-link:hover{
+    background: #fff;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background:white;
+    color:black;
+    border: 2px solid #b2744c ;
+    margin-left:-10px;
+
+}
+#navbar form button:hover{
+    background: #b2744c;
+    color: white;
+}
+/*navbar end*/
+
+#home {
+    width: 100%;
+    height: 100vh;
+     background-repeat: no-repeat;
+    background-size: 70% ,100%;
+    background-position: 70%;
+}
+
+
+#home .carousel-inner img{
+    width: 100%;
+    height: 100vh;
+}
+#home .carousel-inner h2{
+    
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:white;
+   
+}
+#home .carousel-inner button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    background: white;
+    color: #b2744c;
+    border: 2px solid #b2744c;
+    margin: 0px 10px;
+}
+#home .carousel-inner button:hover{
+    background: #b2744c;
+    color:#fff
+}
+
+#home .content h2{
+    padding-top: 210px;
+    margin-left: 50px;
+} 
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}  
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    background:white;
+    color:black;
+    border: none;
+    transition: .5s ease;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#btn:hover{
+background: #b2744c;
+color: white;
+}
+/*-----------about us---------------------*/
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .container{
+    padding-top: 20px;
+}
+#about .container .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #b2744c;
+}
+#about .card img{
+    border-radius: 10px;
+    
+}
+#about-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    color: #b2744c;
+    border: 2px solid #b2744c;
+    font-weight: bold;
+    transition: .5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background: #b2744c;
+    color: white;
+}
+@media screen and (max-width:700px)
+{
+    #about.p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:700px)
+{
+    #about.p{
+        font-size: 15px;
+    }
+}
+/************top-card**************************/
+#top-card{
+    width: 100%;
+    height: 60vh;
+    background:#fff;
+  
+}
+.heading {
+    text-align: center;
+    font-size: 40px;
+   margin-bottom: 20px;
+    font-weight: bold;
+}
+#top-card .container img{
+    width: 350px;
+    height: 300px;
+    margin-left: 10px;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+#top-card .container img:hover{
+transform:translate(-15px);
+}
+#top-card .card{
+    width: 330px;
+    height: 300px;
+}
+/************************menu********************************/
+#menu{
+    width: 100%;
+}
+#menu .heading{
+    color: #b2744c;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+#menu .container .row .card{
+    margin-bottom: 20px;
+
+    
+}
+#menu .container .row .card .star{
+    color: #b2744c;
+}
+#menu .container .row .card h3{
+text-align: center;
+
+
+}
+#menu p{
+    text-align: center;
+    font-size: 20px;
+
+}
+#menu strike{
+    font-size: 15px;
+}
+button{
+    margin-left: 80px;
+    border-radius: 10px;
+    color: white;
+    background: #b2744c;
+    border: none;
+   
+}
+button:hover{
+    color: black;
+    background: white;
+    
+}
+#menu .card:hover{
+    transform: scale(1.1);
+}
+#menu .card{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0,0,.4);
+    height:390px;
+}
+
+#menu .container .pagination{
+    font-size: 20px;
+}
+#menu .page-link{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    background: #b2744c;
+color:white;
+font-weight: bold;
+}
+#menu .page-link:hover{
+    background: white;
+    color: black;
+   box-shadow: 0 .5rem 1.5rem rgba(0, 0,0,.6)
+}
+/********************product section start*****************************/
+#product{
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+   
+    border-bottom: 1px solid #b2744c;
+
+}
+#product h3{
+    text-align: center;
+    color:black;
+    font-size: 23px;
+}
+#product p{
+    color:#b2744c;
+    padding-top: 10px;
+
+}
+#product p span{
+    float: right;
+    font-size: 30px;
+}
+#product p span:hover{
+    transform: scale(1.1);
+    color: black; 
+}
+#product .row .card:hover{
+    transform: scale(1.1); 
+
+}
+#product .page-link{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    background: #b2744c;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#product .page-link:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0,0,.6);
+    border: 2px solid #b2744c;
+    
+}
+/*********************gallary****************************************/
+#gallary{
+    width: 100%;
+} 
+#gallary.container .row .card{
+ margin-bottom: 20px;
+ box-shadow: 0 .5rem 1.5rem rgba(0, 0,0,.3);
+}
+.heading{
+    text-align: center;
+    color:black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ #gallary .container .row img:hover{
+    transform: scale(1.1); 
+}
+#gallary.container .row .card{
+    border-radius:20px ;
+}
+/*-----------------conatact-----------------------*/
+#cantact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(white ,#b2744c );
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.heading1{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.heading1 span{
+    color: #b2744c;
+}
+#contact p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+#conatct input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+
+}
+#contact-btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background:white;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    float: left;
+}
+/*--blogs start----*/
+
+#blogs{
+    width: 100%;
+}
+#blogs #blog-btn{
+border: 2px solid #b2744c;
+background: white;
+color: #b2744c;
+width: 100px;
+height:30px ;
+}
+#blogs #blog-btn:hover{
+    background: #b2744c;
+    color: white;
+}
+#blogs .heading{
+  margin-bottom: 70p;
+}
+/*--------------footer start----------------*/
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+    background: linear-gradient(white ,#b2744c );
+}
+.footer-logo img{
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#footer .social-links i{
+font-size: 17px;
+margin-left: 10px;
+margin-top: 30px;
+padding: 10px;
+background: black;
+color: white;
+border-radius: 10px;
+cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px solid;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+#top-card .container .row{
+animation-name: example;
+animation-iteration-count:infinite;
+animation-duration: 2s;
+}
+.animated-image{
+    animation-timing-function: ease-in-out;
+}
+
+
+@media screen and (max-width: 700px)
+ {
+    #menu{
+     margin-top: 50px;
+       }
+      #menu .card-body button{
+
+        margin-left: 200px;
+      } 
+    
+}
+@media screen and (max-width: 700px)
+ {
+    #top-card{
+    margin-top: 300px;
+    height: 1100px;
+    }
+    
+    }
+    
+@media screen and (max-width: 580px)
+ {
+    #blogs{
+    
+       margin-top: 400px;
+    }
+    
+}
+@media screen and (max-width: 580px){
+    #contact #col{
+    margin-top: 100px;
+    border-style: groove;
+    color: #b2744c;
+    border-radius: 10px;
+    }
+}
+@media screen and (max-width: 580px){
+    #blogs .container .row{
+    margin-bottom: 100px;
+    }
+}
+
+
+
+
+
+
+@keyframes example
+    {
+      from {
+        margin-left: 60%;
+       }
+       to{
+        margin-left: 0%;
+       }
+    }
+
+    @keyframes sample
+    {
+       from{
+             margin-left: 60%;
+           }
+           to{
+            margin-left: 0%;
+           }
+
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+.carousel-control-prev, 
+.carousel-control-next {
+  display: none;
+}
+  
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.hidden{
+ display: none;
+}
+.card-details{
+margin-top: 10px;
+}
+/*********************************************/
+
+
+
+
+
